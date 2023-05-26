@@ -1,0 +1,75 @@
+Introduction to JAVA - 1
+
+Q1) Which of the following is a correct header line for main in a Java program ?
+	1) public static void main(args)
+	2) public void static main(String[] args)
+	3) public static void main(String[])
+	4) public static void main(String [] args) ✅️
+	
+Q2) What is the file extension for Java Executable Code ? 
+	1) .java
+	2) .class ✅️
+	3) .exe
+	4) .javap
+	
+Q3)  What is the extension for Java Source Code ?
+	1) .java ✅️
+	2) .class 
+	3) .exe
+	4) .javap
+	
+Q4) When was Java released ?
+	1) 1975
+	2) 1985
+	3) 1995 ✅️
+	4) 1999
+	
+Q5) Which one is not part of Executable Engine ?
+	1) Interpreter
+	2) JNI ✅️ // Java Native Interface
+	3) JIT
+	4) Garbage Collector
+	
+Q6) What is the output of following program ?
+	File name : Demo.java
+	class Core2Web Tech{
+		public static void main(String [] args){
+			System.out.println("Core2Web Quiz");
+		}
+	}
+	
+	1) Core2Web Quiz 
+	2) Compilation Error ✅️
+	3) Runtime Error
+	4) None of the above 
+	
+Q7) ___________is the developer of the JAVA programming Language.
+	1) Dennis Ritchie
+	2) James Gosling ✅️
+	3) Bjarne Stroustrup
+	4) Linus Torvalds 
+	
+Q8) Which one is not part of JVM Architecture ?
+	1) Classloader Subsystem
+	2) Native method library
+	3) javac compiler ✅️
+	4) None of the Above 
+	
+Q9) What is the old name for Java Programming ?
+	1) Java 2
+	2) oak ✅️
+	3) java
+	4) None of the Above 
+	
+Q10) The file format was created after compiling the following java code.
+	File Name : Demo.java
+	class Core2Web{
+		public static void main(String [] args){
+			System.out.println("Core2Web");
+		}
+	}
+	
+	1) Demo.class
+	2) Main.class
+	3) Core2web.class ✅️
+	4) Error in program

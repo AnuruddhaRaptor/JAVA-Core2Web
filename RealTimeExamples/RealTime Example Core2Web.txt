@@ -1,0 +1,206 @@
+RealTime Example : Core2Web Application
+
+class Application{
+
+        String username = "Hello, Anuruddha";
+        int noofcoursesjoined = 2;
+
+        void myinfo(){
+
+                System.out.println(username);
+                System.out.println("You must know the code till the core...");
+                System.out.println(" ");
+                System.out.println("My Courses : 2");
+                System.out.println("1) Operating System ");
+                System.out.println("2) JAVA DataStructures ");
+                System.out.println("=======================================================================================");
+
+        }
+
+        static String forum1 = "FORUM                                                                                    Ask";
+
+        static void forum(){
+
+                System.out.println(forum1);
+                System.out.println();
+                System.out.println("Search and follow tags for more questions ");
+                System.out.println();
+                System.out.println("Dnyaneshwar Pingale                                                        19 days ago ");
+                System.out.println();
+                System.out.println("error: unreachable statements, not understood");
+                System.out.println("#quiz #java #whileloop");
+                System.out.println("-------------------------------------------------------------------------------------\n");
+		System.out.println("Atharva Bibave                                                             a month ago ");
+                System.out.println();
+                System.out.println("Code return value not showing. Successfully compiled, no runtime errors.");
+                System.out.println("#java");
+                System.out.println("=======================================================================================");
+
+        }
+
+        static String notification1 = "NOTIFICATIONS";
+
+
+        static void notification(){
+
+                System.out.println(notification1);
+                System.out.println();
+                System.out.println("New Lecture                                                                19 hours ago");
+                System.out.println();
+                System.out.println("Lecture : 53 : Static variables and static methods ");
+                System.out.println("Course : JAVA DataStructures ");
+                System.out.println("Topic : Classes & Objects ");
+                System.out.println();
+                System.out.println("New Lecture                                                                23 hours ago");
+                System.out.println("Lecture : 52 : Access specifiers 02");
+                System.out.println("Course : JAVA DataStructures ");
+                System.out.println("Topic : Classes and Objects ");
+                System.out.println("=======================================================================================");
+        }
+	String profile1 = "MY PROFILE ";
+        String name = "Anuruddha J Gawai";
+        String headline = "Code like Raptor";
+        String city = "Pune";
+
+        void profile(){
+
+                System.out.println(profile1);
+                System.out.println("Name : " +name);
+                System.out.println("HeadLine : "+headline);
+                System.out.println("City : "+city);
+                System.out.println("Last Seen : 21-05-2023, 12:45 PM ");
+                System.out.println();
+                System.out.println("--------------------=============================== ");
+                System.out.println("Profile Strength                            44.44 % ");
+                System.out.println();
+                System.out.println("Details                                Questions                               Answers ");
+                System.out.println();
+                System.out.println("Contact");
+                System.out.println();
+                System.out.println("7218138053");
+                System.out.println("anuruddhagawai@gmail.com ");
+                System.out.println("=======================================================================================");
+
+        }
+
+        static String course1 = " 1) Operating System ";
+        static int score1 = 8;
+        static int rank1 = 7;
+        static String status1 = "41.00 % Completed ";
+	static String course2 = "2) JAVA DataStructures ";
+        static int score2 = 190;
+        static int rank2 = 83;
+        static String status2 = "74.00 % Completed ";
+
+        static void leaderboard(){
+
+                System.out.println("LEADERBOARD ");
+                System.out.println("=======================================================================================");
+
+                System.out.println("Course : "+course1);
+                System.out.println("Score : "+score1);
+                System.out.println("Rank : "+rank1);
+                System.out.println("--------============");
+                System.out.println("Status : "+status1);
+                System.out.println();
+                System.out.println("Course : "+course2);
+                System.out.println("Score : "+score2);
+                System.out.println("Rank : "+rank2);
+                System.out.println("--------------====== ");
+                System.out.println("Status : "+status2);
+                System.out.println("=======================================================================================");
+
+        }
+}
+
+class Core2Web{
+
+        public static void main(String [] args){
+
+                System.out.println("========================== Core2Web Application =========================\n");
+                Application Core2Web = new Application();
+                Core2Web.myinfo();
+                Application.forum();
+                Application.notification();
+                Core2Web.profile();
+                Application.leaderboard();
+
+        }
+}
+
+
+OUTPUT : 
+
+anuruddha@Anuruddha:~$ javac RealTimeEx2.java
+anuruddha@Anuruddha:~$ java Core2Web
+========================== Core2Web Application =========================
+
+Hello, Anuruddha
+You must know the code till the core...
+ 
+My Courses : 2
+1) Operating System 
+2) JAVA DataStructures 
+=======================================================================================
+FORUM                                                                              Ask
+
+Search and follow tags for more questions 
+
+Dnyaneshwar Pingale                                                        19 days ago 
+
+error: unreachable statements, not understood
+#quiz #java #whileloop
+-------------------------------------------------------------------------------------
+
+Atharva Bibave                                                             a month ago 
+
+Code return value not showing. Successfully compiled, no runtime errors.
+#java
+=======================================================================================
+NOTIFICATIONS
+
+New Lecture                                                                19 hours ago
+
+Lecture : 53 : Static variables and static methods 
+Course : JAVA DataStructures 
+Topic : Classes & Objects 
+
+New Lecture                                                                23 hours ago
+Lecture : 52 : Access specifiers 02
+Course : JAVA DataStructures 
+Topic : Classes and Objects 
+=======================================================================================
+MY PROFILE 
+Name : Anuruddha J Gawai
+HeadLine : Code like Raptor
+City : Pune
+Last Seen : 21-05-2023, 12:45 PM 
+
+--------------------=============================== 
+Profile Strength                            44.44 % 
+
+Details				   Questions				   Answers 
+
+Contact
+
+7218138053
+anuruddhagawai@gmail.com 
+=======================================================================================
+LEADERBOARD 
+=======================================================================================
+Course :  1) Operating System 
+Score : 8
+Rank : 7
+--------============
+Status : 41.00 % Completed 
+
+Course : 2) JAVA DataStructures 
+Score : 190
+Rank : 83
+--------------====== 
+Status : 74.00 % Completed 
+=======================================================================================
+
+
+	
+

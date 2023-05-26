@@ -1,0 +1,35 @@
+class YoutubeVideo{
+
+        static int TotalPublicVideos = 8;
+        String MostLikedYoutubeVideo = "Monsoon Memories";
+        int TotalUnlistedVideos = 2;
+
+        void VideosUploaded(){
+
+                System.out.println("Total Public Videos : " + TotalPublicVideos);
+                System.out.println("Most Liked Youtube Video : " + MostLikedYoutubeVideo);
+                System.out.println("Total Unlisted Videos : " + TotalUnlistedVideos);
+        }
+}
+
+class ASinematic{
+
+        public static void main(String [] args){
+
+                YoutubeVideo yt1 = new YoutubeVideo();
+                YoutubeVideo yt2 = new YoutubeVideo();
+
+                yt1.VideosUploaded();
+                yt2.VideosUploaded();
+
+                System.out.println("===================================================");
+
+                yt2.TotalPublicVideos = 6;
+                yt2.MostLikedYoutubeVideo = "My 5 AM Village Morning Routine";
+                yt2.TotalUnlistedVideos = 4;
+
+                yt1.VideosUploaded();
+                yt2.VideosUploaded();
+        }
+
+

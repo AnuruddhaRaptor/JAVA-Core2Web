@@ -1,0 +1,45 @@
+Introduction to JAVA - 2 
+
+Q1) Long Form of JVM is _____
+	1) java metaspace
+	2) jdk virtual machine
+	3) jre virtual machine
+	4) java virtual machine ✅️ 
+	
+Q2) Java is ________
+	1) Process Oriented Language
+	2) Low Level Language
+	3) Object Oriented Programming Language ✅️
+	4) Non Robust 
+	
+Q3) Long Form of JDK is_______
+	1) jdk running envt
+	2) java development tool
+	3) java development kit ✅️
+	4) None of the above
+	
+Q4) Tick the Correct Statement 
+	1) Java Byte code is platform-depentent programming
+	2) Java Byte code is platform-indepentent programming ✅️ 
+	3) Java is non robust
+	4) All of the above
+	Explanation : Write Once Run Anywhere (WORA) 
+	
+	
+Q5) Latest Version of Java is 
+	1) 21
+	2) 18
+	3) 19 ✅️ 
+	4) 20
+	
+Q6) Long Form of JRE is ______
+	1) jdk running environment 
+	2) java runtime environment ✅️
+	3) jre running environment
+	4) None of the above
+	
+Q7) JVM is also known as 
+	1) Compiler
+	2) Mini Operating System ✅️
+	3) PVM
+	4) None of the above
